@@ -1,1 +1,1 @@
-# sql_intro
+# training mini-projects in sql
