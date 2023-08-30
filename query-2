@@ -1,0 +1,7 @@
+SELECT
+  created_date
+  ,date(created_date) as created_date_date_only
+  ,extract(year from created_date)
+ FROM `bigquery-public-data.austin_311.311_service_requests` 
+LIMIT
+  10
