@@ -1,0 +1,5 @@
+SELECT 
+  complaint_description
+  ,lower(complaint_description) as all_lower_case
+  ,upper(complaint_description) as all_upper_case
+FROM `bigquery-public-data.austin_311.311_service_requests` 
